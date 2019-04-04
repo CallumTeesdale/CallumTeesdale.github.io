@@ -35,7 +35,7 @@ html,body,#wrapper{
     display: inline-block;
     color: white;
     margin-top: 35vh; 
-    border:3px; 
+    border:0.27vh; 
     border-style:solid; 
     border-color:white; 
     padding: 1em;
