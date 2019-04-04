@@ -38,6 +38,7 @@ img{
     border-style:solid; 
     border-color:white; 
     padding: 1em;
+    font-size: 2vh;
 }
 span{
     font-size: 50px;
