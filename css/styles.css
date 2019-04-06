@@ -37,6 +37,18 @@ html,body,#wrapper{
     background-color: black;
     z-index: 1;
 }
+.socials{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 87vh;
+  color: #f1f1f1;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+}
 
 .right{
     animation: width 1.5s ease-in-out;
@@ -173,20 +185,15 @@ span{
   }
 
   .fa-github{
-    position: absolute;
-    top: 87vh;
-    padding: 20px;
-    color: #f1f1f1;
+
+    color: white;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
   }
   .fa-twitter{
-    position: absolute;
-    top: 87vh;
-    left:7vh;
-    padding: 20px;
+
     color: #f1f1f1;
     font-size: 30px;
     width: 50px;
@@ -194,10 +201,6 @@ span{
     text-decoration: none;
   }
   .fa-envelope{
-    position: absolute;
-    top: 87vh;
-    left:11.5vh;
-    padding: 20px;
     color: #f1f1f1;
     font-size: 30px;
     width: 50px;
