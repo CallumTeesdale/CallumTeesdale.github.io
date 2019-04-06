@@ -16,6 +16,13 @@
       rel="stylesheet"
     />
     <title>Callum Teesdale</title>
+    <script>
+      window.addEventListener("resize", () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+      });
+    </script>
   </head>
   <body>
     <div class="wrapper" id="wrapper">
@@ -24,11 +31,16 @@
       </div>
       <div class="left">
         <div class="socials">
-            <a href="https://github.com/CallumTeesdale" class="fa fa-github"></a>
-            <a href="https://twitter.com/PacmanTheDrunk" class="fa fa-twitter"></a>
-            <a href="mailto:callumjamesteesdale@gmail.com" class="fa fa-envelope"></a>
+          <a href="https://github.com/CallumTeesdale" class="fa fa-github"></a>
+          <a
+            href="https://twitter.com/PacmanTheDrunk"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="mailto:callumjamesteesdale@gmail.com"
+            class="fa fa-envelope"
+          ></a>
         </div>
-        
       </div>
       <div class="right">
         <div class="navBar">
@@ -38,7 +50,9 @@
       </div>
     </div>
     <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
       <div class="overlay-content">
         <a href="index.html">HOME</a>
         <a href="#">ABOUT</a>
