@@ -126,6 +126,38 @@ html,body,#wrapper{
 
 
 
+.quote{
+  display: flex;
+  color: white;
+  height: 100%;
+  width: 100%;  
+ 
+}
+.quoteT{
+  color: white;
+  margin: 15vh;
+  padding-top: 15vh;
+  opacity: 0;
+  animation: fadein 5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.about{
+  height: 100%;
+  width: 100%;
+}
+.aboutT{
+  margin-left: 1vh;
+  border: 1vh solid black;
+  padding: 1vh;
+}
+.aboutT, #aboutTitle{
+  text-align: center;
+}
+
+
+
 
 
 
@@ -205,6 +237,12 @@ span{
     color: #f1f1f1;
     font-size: 30px;
     width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-quote-left{
+    color: #f1f1f1;
+    font-size: 5vh;
     text-align: center;
     text-decoration: none;
   }
