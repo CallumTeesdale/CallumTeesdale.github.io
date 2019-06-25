@@ -24,6 +24,9 @@ html,body,#wrapper{
   to   { width: 100%; }
 }
 
+/**
+ * index
+ */
 
 .wrapper{
     display: flex;
@@ -80,7 +83,9 @@ html,body,#wrapper{
 
 
 
-
+/**
+ * Portfolio
+ */
 
 
 .portfolio{
@@ -124,6 +129,10 @@ html,body,#wrapper{
   color: inherit;
 }
 
+
+/**
+ * About
+ */
 
 
 .quote{
@@ -216,6 +225,12 @@ span{
     right: 45px;
     font-size: 60px;
   }
+
+
+/**
+ * Socials
+ */
+
 
   .fa-github{
 
