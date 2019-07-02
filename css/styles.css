@@ -25,7 +25,7 @@ html,body,#wrapper{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1379px) {
   #portfolio-body,#portfolio-head{
     height: unset;
     padding: 0;
