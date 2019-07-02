@@ -24,6 +24,54 @@ html,body,#wrapper{
   to   { width: 100%; }
 }
 
+
+@media only screen and (max-width: 768px) {
+  #portfolio-body,#portfolio-head{
+    height: unset;
+    padding: 0;
+    margin: 1vh;
+    overflow: unset;
+    font-family: 'Work Sans', sans-serif;
+    animation: fadein 1.8s ease-in-out;
+}
+.portfolio{
+  height: 2000px;
+
+}
+.cards{
+  top: 12vh;
+  left:5vh;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
+.card-container{
+  text-align: center;
+  width: 40vh;
+  height: auto;
+  background-color: white;
+  color: black;
+  border: 1px black;
+  border-radius: 3%;
+  margin: 2vh;
+}
+.card-container:hover{
+  opacity: 0.7;
+}
+.card-container img{
+  padding: 0.5vh;
+  width: auto;
+  height: 20vh;
+}
+
+.cards a{
+  text-decoration: none;
+  color: inherit;
+}
+}
+
 /**
  * index
  */
