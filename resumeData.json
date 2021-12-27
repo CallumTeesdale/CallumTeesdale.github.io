@@ -1,0 +1,75 @@
+{
+  "main": {
+    "name":"Callum Teesdale",
+    "description":"I am software engineer and I use multiple technologies to develop all sorts of projects.",
+    "image":"profilepic.jpg",
+    "bio":"I'm from North Wales",
+    "contactmessage":"Any questions, please get in touch",
+    "email": "callumjamesteesdale@protonmail.co,",
+    "phone": "+447715257110",
+    "github":"https://github.com/CallumTeesdale",
+    "project":"",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "http://www.callum.website",
+    "resumedownload":"http://callum.website",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/PacmanTheDrunk",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/callum-teesdale/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/CallumTeesdale",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"CV",
+    "education":[
+      {
+        "school":"University Of Northampton",
+        "degree":"Bsc Computing, First Class (Hons)",
+        "graduated":"August 2020",
+        "description":"Graduated from the University of Northampton with a first class degree in computing. For my dissertation I created a "
+      }
+    ],
+    "work":[
+      {
+        "company":"Ivendi Ltd",
+        "title":"Software Engineer",
+        "years":"September 2021 - Present",
+        "description":"Currently working in Lender Services providing core development for the business. This means integrations with many different third parties which spans multiple different technologies."
+      },
+      {
+        "company":"Ivendi Ltd",
+        "title":"Product Support Specialist",
+        "years":"October 2020 - September 2021",
+        "description":"During my time as a support specialist I worked closely with multiple teams withing the business "
+      }
+    ],
+    "skills":[
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Soon",
+        "category":"",
+        "image":"01.jpg",
+        "url":""
+      }
+    ]
+  }
+}
