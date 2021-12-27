@@ -60,6 +60,10 @@
       }
     ],
     "skills":[
+      {
+        "name": "C#",
+        "level": "80%"
+      }
     ]
   },
   "portfolio":{
