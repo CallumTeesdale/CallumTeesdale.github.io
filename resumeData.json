@@ -1,11 +1,11 @@
 {
   "main": {
     "name":"Callum Teesdale",
-    "description":"I am software engineer and I use multiple technologies to develop all sorts of projects.",
+    "description":"Software Engineer",
     "image":"profilepic.jpg",
-    "bio":"I'm from North Wales",
+    "bio":"Software Engineer from North Wales. Working mainly in C# and the .Net family.",
     "contactmessage":"Any questions, please get in touch",
-    "email": "callumjamesteesdale@protonmail.co,",
+    "email": "callumjamesteesdale@protonmail.com",
     "phone": "+447715257110",
     "github":"https://github.com/CallumTeesdale",
     "project":"",
@@ -16,7 +16,7 @@
       "zip": ""
     },
     "website": "http://www.callum.website",
-    "resumedownload":"http://callum.website",
+    "resumedownload":"http://www.callum.website/docs/cv.docx",
     "social":[
       {
         "name":"twitter",
@@ -36,39 +36,43 @@
     ]
   },
   "resume":{
-    "skillmessage":"CV",
+    "skillmessage":"Some skills",
     "education":[
       {
         "school":"University Of Northampton",
         "degree":"Bsc Computing, First Class (Hons)",
-        "graduated":"August 2020",
-        "description":"Graduated from the University of Northampton with a first class degree in computing. For my dissertation I created a "
+        "graduated":"July 2020",
+        "description":"Graduate of The University of Northampton with a first-class degree in computing. This course was challenging and involved problem solving and independent learning throughout, along with teamwork skills in certain modules. In my final year I conducted a dissertation on the creation of a blockchain tool to incentivize survey response rates."
       }
     ],
     "work":[
       {
         "company":"Ivendi Ltd",
         "title":"Software Engineer",
-        "years":"September 2021 - Present",
-        "description":"Currently working in Lender Services providing core development for the business. This means integrations with many different third parties which spans multiple different technologies."
+        "years":"August 2021 - Present",
+        "description":"Creating, architecting and implementing solutions to integrate financial institutions to iVendi's products using C# and .NET, working in the Lender Services department. \nReacting to live production issues and BAU work to ensure that customers are getting correct finance quotes and the products function as intended. \n"
       },
       {
         "company":"Ivendi Ltd",
         "title":"Product Support Specialist",
-        "years":"October 2020 - September 2021",
-        "description":"During my time as a support specialist I worked closely with multiple teams withing the business "
+        "years":"October 2020 - August 2021",
+        "description":"Offering class leading support for customer of iVendi's products through the use of off the shelf software and custom built software designed and built by myself. "
       }
     ],
     "skills":[
+      {
+        "name": "C#",
+        "level": "70%"
+      }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Soon",
-        "category":"",
-        "image":"01.jpg",
-        "url":""
+        "title":"Shell Scripts",
+        "category":"These are some shell scripts created for the Operating systems module at university.",
+        "image":"linux.jpg",
+        "url":"https://github.com/CallumTeesdale/CSY2002-Assign2"
       }
     ]
   }
