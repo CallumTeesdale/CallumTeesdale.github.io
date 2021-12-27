@@ -6,7 +6,7 @@
     "bio":"Software engineers based in North Wales",
     "contactmessage":"Any questions, please get in touch",
     "email": "callumjamesteesdale@protonmail.com",
-    "phone": "+447715257110",
+    "phone": "",
     "github":"https://github.com/CallumTeesdale",
     "project":"",
     "address":{
@@ -36,7 +36,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"CV",
+    "skillmessage":"",
     "education":[
       {
         "school":"University Of Northampton",
@@ -62,7 +62,23 @@
     "skills":[
       {
         "name": "C#",
+        "level": "90%"
+      },
+      {
+        "name": ".Net",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript (React/Vue)",
         "level": "80%"
+      },
+      {
+        "name": "MongoDb",
+        "level": "70%"
+      },
+      {
+        "name": "SQL",
+        "level": "70%"
       }
     ]
   },
