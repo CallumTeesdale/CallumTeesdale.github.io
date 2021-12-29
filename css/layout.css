@@ -176,6 +176,16 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fe6928; }
 
+.blinking-cursor {
+   font-weight: 100;
+   color: white;
+   -webkit-animation: 1s blink step-end infinite;
+   -moz-animation: 1s blink step-end infinite;
+   -ms-animation: 1s blink step-end infinite;
+   -o-animation: 1s blink step-end infinite;
+   animation: 1s blink step-end infinite;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -203,7 +213,7 @@ ul#nav li.current a { color: #fe6928; }
 #about .profile-pic {
    position: relative;
    width: 120px;
-   height: 120px;
+   height: auto;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -274,6 +284,17 @@ ul#nav li.current a { color: #fe6928; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+.tech{
+   vertical-align: top;
+   display: inline-block;
+   text-align: center;
+   width: 5rem;
+   margin-right: 2rem;
+}
+.tech li em{
+   display: block;
 }
 
 /*----------------------------------------------*/
@@ -1021,4 +1042,52 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+
+/*
+Animtaion
+*/
+@keyframes blink {
+   from, to {
+      color: transparent;
+   }
+   50% {
+      color: white;
+   }
+}
+
+@-moz-keyframes blink {
+   from, to {
+      color: transparent;
+   }
+   50% {
+      color: white;
+   }
+}
+
+@-webkit-keyframes blink {
+   from, to {
+      color: transparent;
+   }
+   50% {
+      color: white;
+   }
+}
+
+@-ms-keyframes blink {
+   from, to {
+      color: transparent;
+   }
+   50% {
+      color: white;
+   }
+}
+
+@-o-keyframes blink {
+   from, to {
+      color: transparent;
+   }
+   50% {
+      color: white;
+   }
 }

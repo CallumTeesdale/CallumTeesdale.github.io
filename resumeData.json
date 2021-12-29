@@ -2,13 +2,13 @@
   "main": {
     "name":"Callum Teesdale",
     "description":"Software Engineer",
-    "image":"profilepic.jpg",
-    "bio":"Software engineers based in North Wales",
+    "image":"man_working.svg",
+    "bio":"Software engineer based in North Wales. Currently working mainly on the backend using C# and multiple flavours of .NET",
     "contactmessage":"Any questions, please get in touch",
     "email": "callumjamesteesdale@protonmail.com",
     "phone": "",
     "github":"https://github.com/CallumTeesdale",
-    "project":"",
+    "project":"https://www.linkedin.com/in/callum-teesdale/",
     "address":{
       "street":"",
       "city":"",
@@ -57,6 +57,36 @@
         "title":"Product Support Specialist",
         "years":"October 2020 - August 2021",
         "description":"Offering class leading support for customer of iVendi's products through the use of off the shelf software and custom built software designed and built by myself. "
+      }
+    ],
+    "tech": [
+      {
+        "name": "C#",
+        "image": "csharp-original.svg"
+      },
+      {
+        "name": ".NET",
+        "image": "dot-net-original-wordmark.svg"
+      },
+      {
+        "name": "mongoDB",
+        "image": "mongodb-original-wordmark.svg"
+      },
+      {
+        "name": "Git",
+        "image": "git-scm-icon.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "image": "kubernetes-icon.svg"
+      },
+      {
+        "name": "AWS",
+        "image": "amazonwebservices-original-wordmark.svg"
+      },
+      {
+        "name": "Docker",
+        "image": "docker-original-wordmark.svg"
       }
     ],
     "skills":[
