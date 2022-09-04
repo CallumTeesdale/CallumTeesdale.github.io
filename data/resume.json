@@ -1,0 +1,125 @@
+{
+	"main": {
+		"name": "Callum Teesdale",
+		"description": "Software Engineer",
+		"image": "man_working.svg",
+		"bio": "Software engineer based in North Wales. Currently working mainly on the backend using C# and multiple flavours of .NET",
+		"contactmessage": "Any questions, please get in touch",
+		"email": "callumjamesteesdale@protonmail.com",
+		"phone": "",
+		"github": "https://github.com/CallumTeesdale",
+		"project": "https://www.linkedin.com/in/callum-teesdale/",
+		"address": {
+			"street": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"website": "http://www.callum.website",
+		"resumedownload": "http://www.callum.website/docs/cv.docx",
+		"social": [
+			{
+				"name": "twitter",
+				"url": "https://twitter.com/PacmanTheDrunk",
+				"className": "fa fa-twitter"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/callum-teesdale/",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/CallumTeesdale",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "",
+		"education": [
+			{
+				"school": "University Of Northampton",
+				"degree": "Bsc Computing, First Class (Hons)",
+				"graduated": "July 2020",
+				"description": "Graduate of The University of Northampton with a first-class degree in computing. This course was challenging and involved problem solving and independent learning throughout, along with teamworking skills in certain modules. In my final year I conducted a dissertation on the creation of a blockchain tool to incentivize survey response rates.\n"
+			}
+		],
+		"work": [
+			{
+				"company": "Ivendi Ltd",
+				"title": "Software Engineer",
+				"years": "August 2021 - Present",
+				"description": "Creating, architecting and implementing solutions to integrate financial instutuions to iVendi's products using C# and .NET, working in the Lender Services department. \nReacting to live production issues and BAU work to ensure that customers are getting correct finance quotes and the products function as intended. \n"
+			},
+			{
+				"company": "Ivendi Ltd",
+				"title": "Product Support Specialist",
+				"years": "October 2020 - August 2021",
+				"description": "Offering class leading support for customer of iVendi's products through the use of off the shelf software and custom built software designed and built by myself. "
+			}
+		],
+		"tech": [
+			{
+				"name": "C#",
+				"image": "csharp-original.svg"
+			},
+			{
+				"name": ".NET",
+				"image": "dot-net-original-wordmark.svg"
+			},
+			{
+				"name": "mongoDB",
+				"image": "mongodb-original-wordmark.svg"
+			},
+			{
+				"name": "Git",
+				"image": "git-scm-icon.svg"
+			},
+			{
+				"name": "Kubernetes",
+				"image": "kubernetes-icon.svg"
+			},
+			{
+				"name": "AWS",
+				"image": "amazonwebservices-original-wordmark.svg"
+			},
+			{
+				"name": "Docker",
+				"image": "docker-original-wordmark.svg"
+			}
+		],
+		"skills": [
+			{
+				"name": "C#",
+				"level": "90%"
+			},
+			{
+				"name": ".Net",
+				"level": "90%"
+			},
+			{
+				"name": "JavaScript (React/Vue)",
+				"level": "80%"
+			},
+			{
+				"name": "MongoDb",
+				"level": "70%"
+			},
+			{
+				"name": "SQL",
+				"level": "70%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Shell Scripts",
+				"category": "These are some shell scripts created for the Operating systems module.",
+				"image": "linux.jpg",
+				"url": "https://github.com/CallumTeesdale/CSY2002-Assign2"
+			}
+		]
+	}
+}
